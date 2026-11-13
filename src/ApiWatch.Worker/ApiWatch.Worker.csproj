@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ApiWatch.Worker-dfe7bd2c-af3d-4204-ab42-e7d36bc7a9b1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiWatch.Application\ApiWatch.Application.csproj" />
+    <ProjectReference Include="..\ApiWatch.Infrastructure\ApiWatch.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

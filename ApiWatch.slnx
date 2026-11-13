@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ApiWatch.Api/ApiWatch.Api.csproj" />
+    <Project Path="src/ApiWatch.Application/ApiWatch.Application.csproj" />
+    <Project Path="src/ApiWatch.Domain/ApiWatch.Domain.csproj" />
+    <Project Path="src/ApiWatch.Infrastructure/ApiWatch.Infrastructure.csproj" />
+    <Project Path="src/ApiWatch.Worker/ApiWatch.Worker.csproj" />
+  </Folder>
+</Solution>
