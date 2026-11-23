@@ -9,6 +9,12 @@ namespace ApiWatch.Infrastructure.Persistence
         {
         }
             public DbSet<ApiMonitor> Monitors => Set<ApiMonitor>();
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApiWatchDbContext).Assembly);
+        }
+
 
         }
 

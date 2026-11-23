@@ -59,7 +59,7 @@ namespace ApiWatch.Infrastructure.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Monitors");
+                    b.ToTable("Monitors", (string)null);
                 });
 #pragma warning restore 612, 618
         }
